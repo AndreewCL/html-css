@@ -1,0 +1,40 @@
+@charset "UTF-8"
+
+@font-face {
+    font-family: 'love';
+    src: url(fontes/Filxgirl.TTF) format('opentype'), url(fontes/BillyBella.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal ;
+}
+*{
+    font-family: 'love', Helvetica, sans-serif;
+}
+body{
+    background-image:linear-gradient(to right, #29ADFF, #95DFF5, #3587E6, #2D6FFC);
+}
+main{
+    font-family: 'love';
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #95DFF5;
+
+    margin: auto;
+}
+h1{
+    font-family: 'love';
+    color: #864eff;
+    text-align: center;
+    text-shadow: 2px 2px 5px #2D6FFC;
+    box-shadow: 5px 5px 5px greenyellow;
+}
+h2{
+    font-family: 'love';
+    color: #29ADFF;
+    text-shadow: 2px 2px 5px #95DFF5;
+}
+
+p{
+    text-align: justify;
+}
